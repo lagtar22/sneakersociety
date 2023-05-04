@@ -1,0 +1,85 @@
+CRITICAL - 2022-12-10 12:13:57 --> Invalid file: head.php
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('head.php')
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(25): view('head')
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-10 12:15:24 --> Invalid file: footer.php
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer.php')
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('footer', Array, true)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(28): view('footer')
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-10 12:16:24 --> Invalid file: head.php
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('head.php')
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('head', Array, true)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Especie.php(23): view('head')
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Especie->listarEspecie()
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Especie))
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-10 17:23:52 --> Invalid file: /contacto.php
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/contacto.php')
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('/contacto', Array, true)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Consulta.php(57): view('/contacto', Array)
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Consulta->cargarMensaje()
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-10 18:21:37 --> Invalid file: pagina_preguntas_respuestas.php
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagina_pregunta...')
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('pagina_pregunta...', Array, true)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Home.php(58): view('pagina_pregunta...')
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Home->preguntas()
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-10 19:03:07 --> Invalid file: /contacto.php
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/contacto.php')
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('/contacto', Array, true)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Contacto.php(58): view('/contacto', Array)
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Contacto->cargarMensaje()
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-10 23:22:12 --> Undefined variable: user
+#0 C:\xampp\htdocs\SchafferAugusto_Final\app\Views\Usuarios\Datos_usuario.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('Usuarios/Datos_...', Array, true)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Controlador_User.php(70): view('Usuarios/Datos_...', Array)
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Controlador_User->datos_User()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador_User))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-10 23:22:33 --> Undefined variable: user
+#0 C:\xampp\htdocs\SchafferAugusto_Final\app\Views\Usuarios\Datos_usuario.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('Usuarios/Datos_...', Array, true)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Controlador_User.php(70): view('Usuarios/Datos_...', Array)
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Controlador_User->datos_User()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador_User))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-10 23:24:59 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('Usuarios/Datos_...', Array, true)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Controlador_User.php(70): view('Usuarios/Datos_...', Array)
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Controlador_User->datos_User()
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador_User))
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

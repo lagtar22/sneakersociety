@@ -1,0 +1,101 @@
+ERROR - 2022-12-07 08:43:54 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-12-07 08:43:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\ListaCatalogo.php(21): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\ListaCatalogo->listarProductos()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListaCatalogo))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-07 08:43:57 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-12-07 08:43:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\ListaCatalogo.php(21): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\ListaCatalogo->listarProductos()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListaCatalogo))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-07 08:46:31 --> Table 'schaffer_augusto.productos' doesn't exist
+CRITICAL - 2022-12-07 08:46:31 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\ListaCatalogo.php(21): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\ListaCatalogo->listarProductos()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListaCatalogo))
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-07 08:50:59 --> Unknown column 'us_Apellido' in 'field list'
+ERROR - 2022-12-07 08:56:44 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-12-07 08:56:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('augusto', 'us_User', Array, NULL)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('us_User', 'us_User', 'augusto', Array, Array)
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#9 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Controlador_User.php(32): CodeIgniter\BaseModel->save(Array)
+#10 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Controlador_User->cargarRegistro()
+#11 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador_User))
+#12 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-12-07 08:56:47 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-12-07 08:56:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\ListaCatalogo.php(21): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\ListaCatalogo->listarProductos()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListaCatalogo))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-07 08:57:05 --> Unknown column 'us_Apellido' in 'field list'
+ERROR - 2022-12-07 09:19:22 --> Unknown column 'us_Apellido' in 'field list'
+ERROR - 2022-12-07 09:22:35 --> Unknown column 'us_Apellido' in 'field list'
+CRITICAL - 2022-12-07 09:22:35 --> Unknown column 'us_Apellido' in 'field list'
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Us...', 0)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Us...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Us...')
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Controlador_User.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Controlador_User->cargarRegistro()
+#10 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador_User))
+#11 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-07 09:40:15 --> Unknown column 'us_Apellido' in 'field list'
+ERROR - 2022-12-07 09:45:03 --> Unknown column 'us_Apellido' in 'field list'
+ERROR - 2022-12-07 09:45:12 --> Unknown column 'us_Apellido' in 'field list'
+ERROR - 2022-12-07 09:47:18 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-12-07 09:47:23 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-12-07 09:47:43 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-12-07 09:58:54 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-12-07 09:59:34 --> Unknown column 'updated_at' in 'field list'

@@ -1,0 +1,14 @@
+CRITICAL - 2022-12-12 10:03:28 --> Call to undefined method App\Models\Model_Producto::desvalidarImagen
+#0 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(152): CodeIgniter\Model->__call('desvalidarImage...', Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->actualizarProducto()
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 10:04:55 --> Call to undefined method App\Models\Model_Producto::desvalidarImagen
+#0 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(152): CodeIgniter\Model->__call('desvalidarImage...', Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->actualizarProducto()
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

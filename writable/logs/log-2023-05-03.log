@@ -1,0 +1,113 @@
+ERROR - 2023-05-03 14:59:25 --> Table 'schaffer_augusto.especie' doesn't exist
+CRITICAL - 2023-05-03 14:59:25 --> Table 'schaffer_augusto.especie' doesn't exist
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Especie.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Especie->listarEspecie()
+#8 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Especie))
+#9 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-03 15:04:16 --> Undefined variable: especie
+#0 C:\xampp\htdocs\SchafferAugusto_Final\app\Views\Marca\Marca_tabla.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('Marca/Marca_tab...', Array, true)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Marca.php(28): view('Marca/Marca_tab...', Array)
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Marca->listarMarca()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marca))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 15:05:32 --> Class 'App\Models\Model_Especie' not found
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(809): App\Controllers\Producto->__construct()
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-05-03 15:06:34 --> Table 'schaffer_augusto.especie' doesn't exist
+CRITICAL - 2023-05-03 15:06:34 --> Table 'schaffer_augusto.especie' doesn't exist
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT p.*, c.c...', 0)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.*, c.c...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.*, c.c...')
+#3 C:\xampp\htdocs\SchafferAugusto_Final\app\Models\Model_Producto.php(85): CodeIgniter\Database\BaseConnection->query('SELECT p.*, c.c...')
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(25): App\Models\Model_Producto->obtenerProductosActivos()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 15:54:48 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('pagina_principa...', Array, true)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Home.php(13): view('pagina_principa...')
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-05-03 16:27:37 --> Error connecting to the database: Unknown database 'grupo11_db'
+CRITICAL - 2023-05-03 16:27:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'grupo11_db'
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Controlador_User.php(245): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Controlador_User->inicioSesion()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador_User))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-03 16:32:13 --> Error connecting to the database: Unknown database 'grupo11_db'
+CRITICAL - 2023-05-03 16:32:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'grupo11_db'
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Controlador_User.php(245): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Controlador_User->inicioSesion()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador_User))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-03 16:32:26 --> Error connecting to the database: Unknown database 'grupo11_db'
+CRITICAL - 2023-05-03 16:32:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'grupo11_db'
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\ListaCatalogo.php(23): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\ListaCatalogo->listarProductos()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListaCatalogo))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-03 16:34:18 --> Error connecting to the database: Unknown database 'grupo11_db'
+CRITICAL - 2023-05-03 16:34:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'grupo11_db'
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\ListaCatalogo.php(23): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\ListaCatalogo->listarProductos()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListaCatalogo))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 22:55:40 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\SchafferAugusto_Final\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

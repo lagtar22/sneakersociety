@@ -1,0 +1,145 @@
+CRITICAL - 2023-02-24 09:46:25 --> Undefined index: ct_Nombre
+#0 C:\xampp\htdocs\SchafferAugusto_Final\app\Views\Productos\Productos_tabla.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('Productos/Produ...', Array, true)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(32): view('Productos/Produ...', Array)
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-24 09:46:53 --> Undefined variable: datos
+#0 C:\xampp\htdocs\SchafferAugusto_Final\app\Views\Productos\Productos_tabla.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('Productos/Produ...', Array, true)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(32): view('Productos/Produ...', Array)
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-24 11:19:00 --> Table 'schaffer_augusto.producto' doesn't exist
+CRITICAL - 2023-02-24 11:19:00 --> Table 'schaffer_augusto.producto' doesn't exist
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Models\Model_Producto.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(25): App\Models\Model_Producto->obtenerProductos(NULL)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#8 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-24 11:19:24 --> Table 'schaffer_augusto.producto' doesn't exist
+CRITICAL - 2023-02-24 11:19:24 --> Table 'schaffer_augusto.producto' doesn't exist
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Models\Model_Producto.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(25): App\Models\Model_Producto->obtenerProductos(NULL)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#8 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-24 11:19:28 --> Table 'schaffer_augusto.producto' doesn't exist
+CRITICAL - 2023-02-24 11:19:28 --> Table 'schaffer_augusto.producto' doesn't exist
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Models\Model_Producto.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(25): App\Models\Model_Producto->obtenerProductos(NULL)
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#8 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-24 11:19:39 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('Productos/Produ...', Array, true)
+#3 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(32): view('Productos/Produ...', Array)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-24 11:56:41 --> Undefined index: ct_Nombre
+#0 C:\xampp\htdocs\SchafferAugusto_Final\app\Views\Productos\Productos_tabla.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('Productos/Produ...', Array, true)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(31): view('Productos/Produ...', Array)
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-24 11:59:04 --> Undefined index: ct_Nombre
+#0 C:\xampp\htdocs\SchafferAugusto_Final\app\Views\Productos\Productos_tabla.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('Productos/Produ...', Array, true)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(31): view('Productos/Produ...', Array)
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-24 12:01:40 --> Undefined index: ct_Nombre
+#0 C:\xampp\htdocs\SchafferAugusto_Final\app\Views\Productos\Productos_tabla.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('Productos/Produ...', Array, true)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(31): view('Productos/Produ...', Array)
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-24 12:01:53 --> Undefined index: ct_Nombre
+#0 C:\xampp\htdocs\SchafferAugusto_Final\app\Views\Productos\Productos_tabla.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('Productos/Produ...', Array, true)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(31): view('Productos/Produ...', Array)
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-24 12:02:56 --> Unknown column 'categoria.id' in 'on clause'
+CRITICAL - 2023-02-24 12:02:56 --> Unknown column 'categoria.id' in 'on clause'
+#0 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT p.*, c.c...', 0)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.*, c.c...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.*, c.c...')
+#3 C:\xampp\htdocs\SchafferAugusto_Final\app\Models\Model_Producto.php(85): CodeIgniter\Database\BaseConnection->query('SELECT p.*, c.c...')
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(25): App\Models\Model_Producto->obtenerProductosActivos()
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->listarProductos()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-24 12:03:32 --> Call to undefined method App\Models\Model_Producto::buscarProductos
+#0 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\Producto.php(37): CodeIgniter\Model->__call('buscarProductos', Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\Producto->buscarProductos()
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-24 14:49:59 --> Undefined index: us_Name
+#0 C:\xampp\htdocs\SchafferAugusto_Final\app\Views\ventas\tabla_ventasADM.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SchafferAugusto_Final\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SchafferAugusto_Final\system\Common.php(1089): CodeIgniter\View\View->render('ventas/tabla_ve...', Array, true)
+#4 C:\xampp\htdocs\SchafferAugusto_Final\app\Controllers\RegistroVentas.php(81): view('ventas/tabla_ve...', Array)
+#5 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(832): App\Controllers\RegistroVentas->ventas_Cabeceras_admin()
+#6 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroVentas))
+#7 C:\xampp\htdocs\SchafferAugusto_Final\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SchafferAugusto_Final\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
