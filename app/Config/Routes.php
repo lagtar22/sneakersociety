@@ -36,7 +36,7 @@ $routes->get('/contacto', 'Home::contacto');
 $routes->get('/comercializacion', 'Home::comercializacion');
 $routes->get('/quienes_somos', 'Home::quienes');
 $routes->get('/terminos_y_usos', 'Home::terminos');
-$routes->get('/preguntas_y_respuestas', 'Home::preguntas');
+$routes->get('/como_comprar', 'Home::como_comprar');
 
 
 $routes->group("administrador", ["filter"=>"Autenticacion"], function ($routes){

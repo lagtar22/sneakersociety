@@ -17,10 +17,14 @@
     <link href="<?php echo base_url("assets/css/bootstrap.min.css")?>" rel="stylesheet">
     <script src="<?php echo base_url("assets/js/bootstrap.bundle.min.js")?>" type="text/javascript"></script>
     <script src="<?php echo base_url("assets/js/sweetalert.min.js") ?>" type="text/javascript"></script>
+    <script src="<?php echo base_url("assets/js/sweetalert2.all.min.js")?>" type="text/javascript"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
     <!-- Hoja de estilos -->
     <link rel="stylesheet" href="<?php echo base_url("assets/css/styles.css") ?>">
+    <link rel="stylesheet" href="<?php echo base_url("assets/css/sweetalert2.min.css") ?>">
+
 
 </head>
 

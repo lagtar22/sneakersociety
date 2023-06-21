@@ -81,12 +81,24 @@
                         <?php foreach($productos as $fila) :?>
                             <?php if ($fila['pd_Activo'] === null) : ?>
                                 <tr>
-                                    <td class="h5 text-center"> <img class="img-fluid rounded d-none d-sm-block efecto-arriba img-thumbnail" width="150" height="150" src="<?php echo base_url("assets/img/Catalogo/". $fila['pd_Imagen'])?>"> </td>
-                                    <td class="h5 text-justify"> <?php echo $fila['pd_Nombre'];?> <br> <?php echo $fila['pd_Descripcion'];?></td>
-                                    <td class="h5 text-center"> <?php echo $fila['ct_Nombre'];?> </td>
-                                    <td class="h5 text-center"> <?php echo $fila['marca_nombre'];?> </td>
-                                    <td class="h5 text-center"> $<?php echo $fila['pd_PrecioVenta'];?> </td>
-                                    <td class="h5 text-center"> <?php echo $fila['pd_Cantidad'];?> </td>
+                                    <td class="h5 text-center">
+                                        <img class="img-fluid rounded d-none d-sm-block efecto-arriba img-thumbnail" width="150" height="150" src="<?php echo base_url("assets/img/Catalogo/". $fila['pd_Imagen'])?>">
+                                    </td>
+                                    <td class="h5 text-justify">
+                                        <?php echo $fila['pd_Nombre'];?> <br> <?php echo $fila['pd_Descripcion'];?>
+                                    </td>
+                                    <td class="h5 text-center">
+                                        <?php echo $fila['ct_Nombre'];?>
+                                    </td>
+                                    <td class="h5 text-center">
+                                        <?php echo $fila['marca_nombre'];?>
+                                    </td>
+                                    <td class="h5 text-center">
+                                        $<?php echo $fila['pd_PrecioVenta'];?>
+                                    </td>
+                                    <td class="h5 text-center">
+                                        <?php echo $fila['pd_Cantidad'];?>
+                                    </td>
                                     <td class="h5 text-center align-items-baseline">
                                         <!-- Centra el botón de borrar en la columna asignada -->
                                         <div class="row btn-toolbar">
@@ -97,7 +109,7 @@
                                                     </svg>
                                                     Editar
                                                 </a>
-                                                <a href="<?=base_url('administrador/borrarProducto/'. $fila["pd_id"])?>" class="btn btn-danger h3" type="button">
+                                                <a href="#" class="btn btn-danger h3" onclick="confirmarBorrado('<?=base_url('administrador/borrarProducto/'. $fila["pd_id"])?>')">
                                                     <svg width="24" height="24" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                                         <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
                                                         <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
@@ -121,3 +133,20 @@
         <hr class="mb-4 beige">
     </div>
 </section>
+<script>
+    function confirmarBorrado(url) {
+        Swal.fire({
+            title: '¿Estás seguro que deseas eliminar este producto?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#dc3545',
+            cancelButtonColor: '#6c757d',
+            confirmButtonText: 'Eliminar',
+            cancelButtonText: 'Cancelar'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = url;
+            }
+        });
+    }
+</script>

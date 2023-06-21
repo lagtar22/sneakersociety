@@ -115,7 +115,7 @@ class RegistroVentas extends Controller
         $compraRealizada   = $this->ventaCabecera->where('id_VentaCabec', $id)->join("usuarios", "usuarios.id = ventas_cabeceras.id_Cliente")->findAll();
         $detalle_compra    = $this->ventaDetalle->where('id_VentaCabec', $id)->join('productos','productos.pd_id = ventas_detalles.pd_id')->findAll();
         
-        $ruta = base_url('public/img/logo.png');
+        $ruta = base_url('assets/img/Logo/logo1.png');
         $tipo = pathinfo($ruta, PATHINFO_EXTENSION);
         $dato = file_get_contents($ruta);
         $imagen = 'data:image/'.$tipo.';base64,'.base64_encode($dato);
@@ -124,14 +124,14 @@ class RegistroVentas extends Controller
                     <div>
                         <div style="text-align: left;">
                             <img src="'.$imagen.'" alt="" width="100" height="100">
-                            <h2><b>JURASSIC PLANT SRL</b></h2>
+                            <h2><b>SNEAKER SOCIETY SRL</b></h2>
                             <h3><b>César Augusto Schaffer Alippi</b></h3>
-                            CUIL: 20-39864764-6<br> 
+                            CUIT: 20-39864764-6<br> 
                             Río Juramento 1233<br>
                             3400, Corrientes<br>
                             Corrientes, Argentina<br>
                             TEL: 3772-514098<br>
-                            jurassicplant@gmail.com
+                            sneakersociety@gmail.com
                         </div>
                         <div style="text-align: right;">';
         if($compraRealizada)
@@ -190,6 +190,6 @@ class RegistroVentas extends Controller
 
         $dompdf->render();
 
-        $dompdf->stream("factura".$id."JurassicPlant_".$fecha."_".time().".pdf");
+        $dompdf->stream("factura".$id."SneakerSociety_".$fecha."_".time().".pdf");
     }
 }

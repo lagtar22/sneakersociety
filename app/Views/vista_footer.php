@@ -64,6 +64,14 @@
                             <?php endif; ?>
                         </h6>
                     </li>
+                    <br>
+                    <li>
+                        <h6>
+                            <a href="<?php echo base_url('como_comprar')?> " class="beige" style="text-decoration: none;">
+                                Cómo Comprar
+                            </a>
+                        </h6>
+                    </li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">

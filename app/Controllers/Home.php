@@ -49,13 +49,14 @@ class Home extends BaseController
         echo view("pagina_terminos_usos");
         echo view("vista_footer");
     }
-    // Vista de preguntas y respuestas
-    public function preguntas()
+
+    // Vista de como comprar
+    public function como_comprar()
     {
-        $data = ["titulo" => "Sneaker Society - Preguntas y Respuestas"];
+        $data = ["titulo" => "Sneaker Society - Cómo Comprar"];
         echo view("vista_head", $data);
         echo view("vista_nav");
-        echo view("pagina_preguntas_respuestas");
+        echo view("pagina_como_comprar");
         echo view("vista_footer");
     }
 }
